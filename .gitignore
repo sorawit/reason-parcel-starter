@@ -1,0 +1,8 @@
+*.bs.js
+/.cache/
+/dist/
+/.merlin
+/.bsb.lock
+/node_modules/
+/lib/bs/
+/coverage/

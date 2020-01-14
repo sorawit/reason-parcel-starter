@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "bs-platform": "^7.0.1",
+    "bsb-js": "^1.1.7",
+    "parcel-bundler": "^1.12.4"
+  },
+  "scripts": {
+    "start": "bsb -make-world -w -ws _",
+    "serve": "parcel index.html",
+    "build": "bsb -make-world && parcel build index.html"
+  },
+  "dependencies": {
+    "react": "^16.8.0-0",
+    "reason-react": "^0.7.0"
+  }
+}
